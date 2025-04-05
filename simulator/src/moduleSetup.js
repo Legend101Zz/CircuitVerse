@@ -1,3 +1,5 @@
+/* eslint-disable camelcase */
+// eslint-disable-next-line import/no-cycle
 import modules from './modules';
 import Adder from './modules/Adder';
 import ALU from './modules/ALU';
@@ -63,6 +65,7 @@ import verilogPower from './modules/verilogPower';
 import verilogShiftLeft from './modules/verilogShiftLeft';
 import verilogShiftRight from './modules/verilogShiftRight';
 import verilogRAM from './sequential/verilogRAM';
+import RingCounter from './modules/RingCounter';
 
 export default function setupModules() {
     var moduleSet = {
@@ -109,6 +112,7 @@ export default function setupModules() {
         MSB,
         LSB,
         PriorityEncoder,
+        RingCounter,
         Tunnel,
         ALU,
         Rectangle,
