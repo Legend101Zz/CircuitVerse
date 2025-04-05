@@ -61,7 +61,8 @@
     "Dlatch",
     "TB_Input",
     "TB_Output",
-    "ForceGate"
+    "ForceGate",
+    "LFSR"
   ],
   "annotationList": ["Text", "Rectangle", "Arrow", "ImageAnnotation"],
   "inputList": [
@@ -150,7 +151,8 @@
       { "name": "RAM", "label": "RAM" },
       { "name": "RingCounter", "label": "Ring Counter" },
       { "name": "verilogRAM", "label": "Verilog RAM" },
-      { "name": "EEPROM", "label": "EEPROM" }
+      { "name": "EEPROM", "label": "EEPROM" },
+      { "name": "LFSR", "label": "LFSR" }
     ],
     "Annotation": [
       { "name": "Rectangle", "label": "Rectangle" },
