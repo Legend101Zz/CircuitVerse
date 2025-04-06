@@ -69,6 +69,7 @@ import RingCounter from './modules/RingCounter';
 import LFSR from './modules/LFSR';
 import SISOShiftRegister from './modules/SISOShiftRegister';
 import SIPOShiftRegister from './modules/SIPOShiftRegister';
+import PISOShiftRegister from './modules/PISOShiftRegister';
 
 export default function setupModules() {
     var moduleSet = {
@@ -140,6 +141,7 @@ export default function setupModules() {
         ForceGate,
         SISOShiftRegister,
         SIPOShiftRegister,
+        PISOShiftRegister,
     };
     Object.assign(modules, moduleSet);
 }
