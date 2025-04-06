@@ -72,6 +72,7 @@ import SIPOShiftRegister from './modules/SIPOShiftRegister';
 import PISOShiftRegister from './modules/PISOShiftRegister';
 import PIPOShiftRegister from './modules/PIPOShiftRegister';
 import UniversalShiftRegister from './modules/UniversalShiftRegister';
+import BidirectionalShiftRegister from './modules/BidirectionalShiftRegister';
 
 export default function setupModules() {
     var moduleSet = {
@@ -146,6 +147,7 @@ export default function setupModules() {
         PISOShiftRegister,
         PIPOShiftRegister,
         UniversalShiftRegister,
+        BidirectionalShiftRegister,
     };
     Object.assign(modules, moduleSet);
 }
