@@ -70,6 +70,7 @@ import LFSR from './modules/LFSR';
 import SISOShiftRegister from './modules/SISOShiftRegister';
 import SIPOShiftRegister from './modules/SIPOShiftRegister';
 import PISOShiftRegister from './modules/PISOShiftRegister';
+import PIPOShiftRegister from './modules/PIPOShiftRegister';
 
 export default function setupModules() {
     var moduleSet = {
@@ -142,6 +143,7 @@ export default function setupModules() {
         SISOShiftRegister,
         SIPOShiftRegister,
         PISOShiftRegister,
+        PIPOShiftRegister,
     };
     Object.assign(modules, moduleSet);
 }
