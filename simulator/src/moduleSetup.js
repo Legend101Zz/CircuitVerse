@@ -67,6 +67,7 @@ import verilogShiftRight from './modules/verilogShiftRight';
 import verilogRAM from './sequential/verilogRAM';
 import RingCounter from './modules/RingCounter';
 import LFSR from './modules/LFSR';
+import SISOShiftRegister from './modules/SISOShiftRegister';
 
 export default function setupModules() {
     var moduleSet = {
@@ -136,6 +137,7 @@ export default function setupModules() {
         TB_Input,
         TB_Output,
         ForceGate,
+        SISOShiftRegister
     };
     Object.assign(modules, moduleSet);
 }

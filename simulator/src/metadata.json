@@ -62,7 +62,8 @@
     "TB_Input",
     "TB_Output",
     "ForceGate",
-    "LFSR"
+    "LFSR",
+    "SISOShiftRegister"
   ],
   "annotationList": ["Text", "Rectangle", "Arrow", "ImageAnnotation"],
   "inputList": [
@@ -156,6 +157,12 @@
     ],
     "Annotation": [
       { "name": "Rectangle", "label": "Rectangle" },
+      { "name": "Arrow", "label": "Arrow" },
+      { "name": "ImageAnnotation", "label": "Image Annotation" },
+      { "name": "Text", "label": "Text" }
+    ],
+    "Shift Registers": [
+      { "name": "SISOShiftRegister", "label": "SISOShiftRegister" },
       { "name": "Arrow", "label": "Arrow" },
       { "name": "ImageAnnotation", "label": "Image Annotation" },
       { "name": "Text", "label": "Text" }
