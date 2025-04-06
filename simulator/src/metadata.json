@@ -66,7 +66,8 @@
     "SISOShiftRegister",
     "SIPOShiftRegister",
     "PISOShiftRegister",
-    "PIPOShiftRegister"
+    "PIPOShiftRegister",
+    "UniversalShiftRegister"
   ],
   "annotationList": ["Text", "Rectangle", "Arrow", "ImageAnnotation"],
   "inputList": [
@@ -168,7 +169,9 @@
       { "name": "SISOShiftRegister", "label": "SISOShiftRegister" },
       { "name": "SIPOShiftRegister", "label": "SIPOShiftRegister" },
       { "name": "PISOShiftRegister", "label": "PISOShiftRegister" },
-      { "name": "PIPOShiftRegister", "label": "PIPOShiftRegister" }
+      { "name": "PIPOShiftRegister", "label": "PIPOShiftRegister" },
+      { "name": "UniversalShiftRegister", "label": "UniversalShiftRegister" },
+      { "name": "UniversalShiftRegister", "label": "UniversalShiftRegister" }
     ],
     "Misc": [
       { "name": "TwoComplement", "label": "Two Complement" },
